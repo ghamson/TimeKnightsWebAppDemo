@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Time Knights</title>
+    <meta name="author" content="Giles Hamson" />
+    <style type="text/css"> body { background-color:#undefined; }</style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png?v=091">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png?v=091">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png?v=091">
+    <link rel="manifest" href="/icon/site.webmanifest?v=091">
+    <link rel="mask-icon" href="/icon/safari-pinned-tab.svg?v=091" color="#5bbad5">
+    <link rel="shortcut icon" href="/icon/favicon.ico?v=091">
+    <meta name="apple-mobile-web-app-title" content="Magic &amp; Legend: Time Knights">
+    <meta name="application-name" content="Magic &amp; Legend: Time Knights">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png?v=091">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <div id="gameboy_shell">
+      <div id="game">
+        <canvas id="mainCanvas" width="160" height="144">No Canvas Support</canvas>
+      </div>
+      <div id="controller">
+        <div id="controller_dpad">
+          <div id="controller_left"></div>
+          <div id="controller_right"></div>
+          <div id="controller_up"></div>
+          <div id="controller_down"></div>
+        </div>
+        <div id="controller_select" class="capsuleBtn">Select</div>
+        <div id="controller_start" class="capsuleBtn">Start</div>
+        <div id="controller_b" class="roundBtn">B</div>
+        <div id="controller_a" class="roundBtn">A</div>
+      </div>      
+    </div>
+    <script>
+      const customControls = {}
+    </script>
+    <script src="js/other/mobile.js"></script>
+    <script src="js/other/base64.js"></script>
+    <script src="js/other/swfobject.js"></script>
+    <script src="js/other/resampler.js"></script>
+    <script src="js/other/XAudioServer.js"></script>
+    <script src="js/other/controls.js"></script>
+    <script src="js/other/resize.js"></script>    
+    <script src="js/GameBoyCore.js"></script>
+    <script src="js/GameBoyIO.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+DesktopAppConverter.exe -Installer "C:\source\TimeKnightsNativefier\Magic and Legend - Time Knights-win32-x64\Magic and Legend - Time Knights.exe" -Destination C:\Source -PackageName "Time Knights" -Publisher "CN=LegendaryMonkeyMagic" -Version 1.0.0.18 -MakeAppx
